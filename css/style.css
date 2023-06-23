@@ -1,0 +1,108 @@
+/* Estilos para el cuerpo y el HTML */
+body,
+html {
+  height: 100%;
+}
+
+/* Estilos para el texto personalizado */
+.custom-text {
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+
+/* Estilos para el título del error */
+.error-title {
+  font-family: "Space Mono", monospace;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+/* Estilos para el mensaje de error */
+.error-message {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+/* Estilos para el enlace personalizado */
+.custom-link {
+  width: 130px;
+  height: 21px;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+/* Estilos para el botón personalizado */
+.custom-btn {
+  width: 216px;
+  height: 60px;
+  top: 663px;
+  left: 740px;
+  background: #333333;
+}
+
+/* Estilos para la imagen personalizada */
+.custom-img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  max-height: 500px;
+  margin: 0 auto 40px; 
+}
+
+/* Estilos para la imagen personalizada en pantallas grandes */
+@media (min-width: 768px) {
+  .custom-img {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+/* Estilos para centrar verticalmente */
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  padding: 0px 0;
+  width: 100%;
+}
+
+/* Estilos para el texto del pie de página */
+.footer-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #bdbdbd;
+  margin: 0;
+}
+
+/* Estilos para el texto en negrita */
+.bold {
+  font-weight: bold;
+  color: #afaeae;
+}
