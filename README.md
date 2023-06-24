@@ -4,8 +4,6 @@ Solución para un desafío de [Devchallenges.io](http://devchallenges.io).
 
 ## Enlaces
 
-- [Demostración](https://{su-enlace-de-demostración.su-dominio})
-- [Solución](https://{su-url-a-la-solución})
 - [Desafío](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
 
 ## Descripción general
